@@ -1,0 +1,153 @@
+/* Text Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Montserrat', sans-serif;
+  }
+  
+  .logo {
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+  
+  li {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2em;
+    letter-spacing: 0.01em;
+  }
+
+
+  .btn {
+    background-color: #b42025;
+    border: 0px;
+    text-align: center;
+  }
+  
+
+  .btn-outline-denger{
+      background-color: #b42025;
+  }
+
+  .btn-denger{
+    color: #b42025;
+  }
+
+  
+  .btn-success {
+    background-color:#b42025 !important;
+    border:none;
+  }
+  
+  .btn-success:hover {
+    background-color: #b42025 !important;
+  }
+  .btn-success:focus{
+    background-color:#b42025 !important;
+    border: 0px !important;
+  }
+  
+  .btn-success:active{
+    background-color: #b42025 !important;
+    border: 0px !important;
+  }
+  
+  .btn-success:visited{
+    background-color:#b42025;
+    border: 0px !important;
+  }
+  
+  /* Nav Styles */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background: url("https://raw.githubusercontent.com/spokenpleinair/BootstrapExercise/main/images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  
+  .nav-item {
+    margin: 0px 15px;
+  
+  }
+  
+  .dropdown-menu {
+    background: url("https://raw.githubusercontent.com/spokenpleinair/BootstrapExercise/main/images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: #b42025;
+  }
+  
+  .customNav a{
+    color: white !important;
+  }
+  
+  .navCTA{
+    background-color: #b42025;
+    border: 1px solid #b42025;
+
+  }
+  
+  /* Jumbotron */
+  .jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1591893958556-500908434737?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDY5fHxyZWR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+ 
+  /*Content Card*/
+  .cardContainer {
+    margin-top: 20px;
+  }
+  .card {
+    margin: 0 auto;
+  }
+  
+  .content {
+    padding: 50px;
+  }
+  
+  .sectionHeading {
+    text-align: center;
+  }
+  
+  .showsNear {
+    padding: 0px 30px 30px 30px;
+  }
+  
+  .cardContainer {
+    text-align: center;
+  }
+  
+ 
